@@ -50,6 +50,7 @@ Esta es una API RESTful para la gestión de tareas, construida con Django y Djan
     ```bash
     python manage.py runserver
     ```
+    
 
 ## 📬Endpoints principales
 Método	Endpoint	Descripción
