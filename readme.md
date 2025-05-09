@@ -15,28 +15,41 @@ Esta es una API RESTful para la gestión de tareas, construida con Django y Djan
 
 ## 📦 Instalación
 
-1. Clona el repositorio:
+1. **Clona el repositorio:**
+   
    ```bash
    git clone https://github.com/alanZR1/API-Task-manager
-   cd gestor-tareas```
+   cd gestor-tareas
+   ```
 
-2.- Crea y activa un entorno virtual:
-    ```bash
-    python -m venv venv
-    venv\Scripts\activate  # Windows
-    source venv/bin/activate  # Linux/macOS
+2. **Crea y activa un entorno virtual:**
 
-3.-Instala dependencias:
-    ```bash
-    pip install -r requirements.txt 
+   Para **Windows**:
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate
+   ```
 
-4.-Realiza migraciones:
-    ```bash
-    python manage.py migrate
+   Para **Linux/macOS**:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate
+   ```
 
-5.-Ejecuta el servidor:
+3. **Instala las dependencias:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Realiza las migraciones:**
+   ```bash
+   python manage.py migrate
+   ```
+
+5.-**Ejecuta el servidor:**
     ```bash
     python manage.py runserver
+    ```
 
 ## 📬Endpoints principales
 Método	Endpoint	Descripción
