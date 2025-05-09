@@ -1,9 +1,8 @@
-# Created by venv; see https://docs.python.org/3/library/venv.html
 # Entorno virtual
 venv/
-include/
-lib\site-packages/
 env/
+include/
+lib/
 *.pyc
 __pycache__/
 
@@ -23,7 +22,7 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Archivos de migraciones innecesarios (opcional)
+# Archivos de migraciones innecesarios
 **/migrations/*.pyc
 **/migrations/__pycache__/
 
