@@ -17,24 +17,28 @@ Esta es una API RESTful para la gestión de tareas, construida con Django y Djan
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/gestor-tareas.git
+   git clone https://github.com/alanZR1/API-Task-manager
    cd gestor-tareas
 
 2.- Crea y activa un entorno virtual:
+    ```bash
     python -m venv venv
     venv\Scripts\activate  # Windows
     source venv/bin/activate  # Linux/macOS
 
 3.-Instala dependencias:
+    ```bash
     pip install -r requirements.txt 
 
 4.-Realiza migraciones:
+    ```bash
     python manage.py migrate
 
 5.-Ejecuta el servidor:
+    ```bash
     python manage.py runserver
 
-📬Endpoints principales
+## 📬Endpoints principales
 Método	Endpoint	Descripción
 GET	/api/tareas/	Listar todas las tareas
 POST	/api/tareas/	Crear una nueva tarea
@@ -43,5 +47,5 @@ PUT	/api/tareas/{id}/	Actualizar una tarea
 DELETE	/api/tareas/{id}/	Eliminar una tarea
 
 
-📄 Licencia
+## 📄 Licencia
 Este proyecto está bajo la licencia MIT. Libre para usar, modificar y compartir.
