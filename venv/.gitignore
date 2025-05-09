@@ -1,6 +1,8 @@
 # Created by venv; see https://docs.python.org/3/library/venv.html
 # Entorno virtual
 venv/
+include/
+lib\site-packages/
 env/
 *.pyc
 __pycache__/
