@@ -18,7 +18,7 @@ Esta es una API RESTful para la gestión de tareas, construida con Django y Djan
 1. Clona el repositorio:
    ```bash
    git clone https://github.com/alanZR1/API-Task-manager
-   cd gestor-tareas
+   cd gestor-tareas```
 
 2.- Crea y activa un entorno virtual:
     ```bash
