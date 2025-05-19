@@ -46,7 +46,7 @@ Esta es una API RESTful para la gestión de tareas, construida con Django y Djan
    python manage.py migrate
    ```
 
-5.-**Ejecuta el servidor:**
+5. **Ejecuta el servidor:**
    ```bash
    python manage.py runserver
    ```
